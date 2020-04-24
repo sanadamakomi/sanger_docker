@@ -1,6 +1,6 @@
 # sanger_docker
 
-A shiny app packed with docker to analyse sanger sequencing data. 
+A shiny app deployed by docker to analyse sanger sequencing data. 
 
 Input position and ab1 file, output variants and screenshot around position.
 
@@ -36,7 +36,7 @@ And copy three file 'human_g1k_v37_decoy.nhr', 'human_g1k_v37_decoy.nin' & 'huma
 
 # 中文版说明
 
-本项目基于shiny app，能可视化地分析一代序列，输入位点和ab1文件，可以看色谱图，call变异并自动截图，为了方便部署使用docker打包shiny app。
+本项目基于shiny app，能可视化地分析一代序列，输入位点和ab1文件，可以看色谱图，call变异并自动截图，本项目可使用docker部署。
 
 ## 安装前
 
