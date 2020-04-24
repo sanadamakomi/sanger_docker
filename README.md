@@ -71,3 +71,4 @@ And copy three file 'human_g1k_v37_decoy.nhr', 'human_g1k_v37_decoy.nin' & 'huma
 可以指定一个端口，比如80
 
 `docker run -p 80:3838 sanger_docker`
+
