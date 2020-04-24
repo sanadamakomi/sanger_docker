@@ -2,7 +2,7 @@
 
 A shiny app deployed by docker to analyse sanger sequencing data. 
 
-Input position and ab1 file, output variants and screenshot around position.
+Input position and ab1 file, output variants and screenshot of chromatogram around position.
 
 ## Before Install
 
