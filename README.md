@@ -4,7 +4,7 @@ A shiny app deployed by docker to analyse sanger sequencing data.
 
 Input position and ab1 file, output variants and screenshot of chromatogram around position.
 
-## Before Install
+## Before building Dockerfile
 
 ### Blastn
 
@@ -38,7 +38,7 @@ And copy three file 'human_g1k_v37_decoy.nhr', 'human_g1k_v37_decoy.nin' & 'huma
 
 本项目基于shiny app，能可视化地分析一代序列，输入位点和ab1文件，可以看色谱图，call变异并自动截图，本项目可使用docker部署。
 
-## 安装前
+## 在build Dockerfile之前
 
 除了需要git clone本项目之外，还需要下载blastn和参考基因组文件，构建index。因为这些文件太大了，就没有写在Dockerfile里。
 
