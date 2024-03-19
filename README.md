@@ -72,3 +72,7 @@ And copy three file 'human_g1k_v37_decoy.nhr', 'human_g1k_v37_decoy.nin' & 'huma
 
 `docker run -p 80:3838 sanger_docker`
 
+
+# 更新：
+
+* 20240319：将镜像从debian换成了centos7，发现sangerseqR包在debian下峰图会位移
